@@ -1,0 +1,80 @@
+/* Centraliza o conteúdo na tela */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo principal do container */
+section {
+    background-color: #828282;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+h2 {
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos labels */
+label {
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+/* Estilo dos select e input */
+select, input {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+/* Adiciona efeito de foco nos campos */
+select:focus, input:focus {
+    border-color: #00d038;
+    outline: none;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #00ff44;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #14d247;
+}
+
+/* Estilo do resultado */
+h3 {
+    color: #00ff44;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
